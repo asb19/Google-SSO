@@ -9,7 +9,7 @@ function signIn(){
 
   // Parameters to pass to OAuth 2.0 endpoint.
   var params = {'client_id': '713801279282-5n8pqs5fb0v12d0g5udcateva4jab49s.apps.googleusercontent.com',
-                'redirect_uri': 'http://127.0.0.1:5500/profile.html',
+                'redirect_uri': 'https://test.clicksandcrafts.com/profile.html',
                 'response_type': 'token',
                 'scope':'https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/calendar',
                 'include_granted_scopes': 'false',
